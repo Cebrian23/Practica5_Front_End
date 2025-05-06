@@ -25,7 +25,6 @@ export const handler: Handlers = {
 
 const Page = (props: PageProps<Data>) => {
   const posts = props.data.data.posts;
-  console.log(posts);
   const bool = true;
 
   return (

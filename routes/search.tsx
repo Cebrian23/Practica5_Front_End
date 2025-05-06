@@ -1,6 +1,9 @@
 const Page = () => {
     return (
       <>
+        <form>
+          <input placeholder="Inserta una palabra"/>
+        </form>
       </>
     );
   }
